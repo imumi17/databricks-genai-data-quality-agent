@@ -1,0 +1,4 @@
+rule_id,column_name,rule,severity
+1,CustomerName,not_null,High
+2,State,not_null,Medium
+3,City,not_null,Medium
