@@ -1,97 +1,60 @@
-# databricks-genai-data-quality-agent
-LLM-Powered Data Quality Agent using Databricks Mosaic AI, Vector Search and RAG Architecture
-
+# Enterprise GenAI Data Quality Agent on Databricks
 
 ## Overview
 
-Enterprise Data Quality Agent is a GenAI-inspired data quality solution designed to automate issue detection, root cause analysis, and remediation recommendations for enterprise datasets.
+Enterprise GenAI Data Quality Agent is a Retrieval-Augmented Generation (RAG) solution designed to automate data quality investigations, root cause analysis, and remediation recommendations.
 
-The project demonstrates how Data Quality Engineering, AI, and Data Governance can be combined to improve operational efficiency and reduce manual investigation effort.
-
-## Architecture
-
-```text
-Sales Dataset
-      ↓
-Rule Engine
-      ↓
-Issue Detection
-      ↓
-AI Copilot
-      ↓
-Root Cause Analysis
-      ↓
-Recommendations
-      ↓
-Quality Report
+The solution demonstrates how Databricks Lakehouse, Vector Search, Mosaic AI, and Large Language Models can be combined to improve enterprise data quality operations.
 
 ---
 
 ## Business Problem
 
-Organizations spend significant time investigating:
+Organizations spend significant effort investigating:
 
-* Missing values
+* Missing customer information
 * Invalid records
-* Data inconsistencies
-* Schema issues
-* Reporting failures
+* Reference data issues
+* Data quality incidents
+* ETL failures
 
-Traditional investigation processes are manual and time-consuming.
+These investigations are often manual, slow, and expensive.
 
 ---
 
-## Proposed Solution
+## Solution Architecture
 
-The solution validates incoming datasets, identifies quality issues, and prepares the foundation for AI-powered investigation and recommendation workflows.
-
-### Workflow
-
-Sales Dataset
+Source Systems
 ↓
-Data Validation
+Databricks Lakehouse
+↓
+Data Quality Engine
 ↓
 Issue Detection
+↓
+Knowledge Base Retrieval
+↓
+Vector Search
+↓
+Mosaic AI Agent
 ↓
 Root Cause Analysis
 ↓
 Recommendations
-
----
-
-## Project Structure
-
-enterprise-data-quality-copilot
-
-├── docs
-
-├── diagrams
-
-├── notebooks
-
-├── sample-data
-
-└── README.md
+↓
+Dashboard & Alerts
 
 ---
 
 ## Current Features
 
-* Dataset ingestion
-* Missing value detection
-* Data quality validation
-* Issue reporting
-
----
-
-## Future Enhancements
-
-* Rule Engine
-* RAG-based Knowledge Retrieval
-* Databricks Integration
-* Vector Search
-* LLM-powered Root Cause Analysis
-* Interactive Dashboard
+* Data validation framework
+* Configurable rule engine
+* Data quality scoring
+* AI copilot recommendations
+* Knowledge-base retrieval
+* RAG workflow prototype
+* Enterprise architecture design
 
 ---
 
@@ -99,13 +62,39 @@ enterprise-data-quality-copilot
 
 * Python
 * Pandas
-* Git
 * GitHub
-* Databricks (Planned)
-* OpenAI (Planned)
+* Databricks
+* Delta Lake
+* Unity Catalog
+* Mosaic AI
+* Vector Search
+* OpenAI API
+* RAG
+
+---
+
+## Future Enhancements
+
+* Semantic Search
+* Vector Embeddings
+* OpenAI Integration
+* ServiceNow Integration
+* Teams Notifications
+* Autonomous Remediation
+
+---
+
+## Business Benefits
+
+* Faster incident resolution
+* Improved data quality
+* Reduced operational effort
+* Better governance
+* Improved business trust
 
 ---
 
 ## Author
 
 Umesh Pandey
+
