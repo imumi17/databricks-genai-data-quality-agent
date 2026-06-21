@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 
 client = OpenAI(
-    api_key="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"
+    api_key="YOUR_API_KEY"
 )
 
 kb_path = os.path.join(
