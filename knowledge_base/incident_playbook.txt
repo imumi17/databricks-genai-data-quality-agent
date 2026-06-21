@@ -1,0 +1,35 @@
+Missing CustomerName
+
+Possible Causes:
+- Customer onboarding issue
+- Source file corruption
+- Manual entry omission
+
+Recommended Actions:
+- Enforce mandatory field validation
+- Implement ingestion checks
+- Notify source system owner
+
+------------------------------------------------
+
+Missing State
+
+Possible Causes:
+- Incomplete customer profile
+- Reference data mismatch
+
+Recommended Actions:
+- Validate state lookup tables
+- Add mandatory validation rules
+
+------------------------------------------------
+
+Negative Sales Amount
+
+Possible Causes:
+- Refund transactions
+- Incorrect source mapping
+
+Recommended Actions:
+- Verify transaction type
+- Review ETL transformations
