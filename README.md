@@ -4,9 +4,26 @@ LLM-Powered Data Quality Agent using Databricks Mosaic AI, Vector Search and RAG
 
 ## Overview
 
-Enterprise Data Quality Copilot is a GenAI-inspired data quality solution designed to automate issue detection, root cause analysis, and remediation recommendations for enterprise datasets.
+Enterprise Data Quality Agent is a GenAI-inspired data quality solution designed to automate issue detection, root cause analysis, and remediation recommendations for enterprise datasets.
 
 The project demonstrates how Data Quality Engineering, AI, and Data Governance can be combined to improve operational efficiency and reduce manual investigation effort.
+
+## Architecture
+
+```text
+Sales Dataset
+      ↓
+Rule Engine
+      ↓
+Issue Detection
+      ↓
+AI Copilot
+      ↓
+Root Cause Analysis
+      ↓
+Recommendations
+      ↓
+Quality Report
 
 ---
 
